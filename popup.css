@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+    color: #333;
+}
+
+.popup-container {
+    padding: 20px;
+}
+
+.logo {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Video Section */
+.video-section {
+    margin: 15px 0;
+}
+
+.video-section video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BUTTON STYLES - Consistent for All Buttons */
+.button {
+    display: block;
+    width: 90%; 
+    margin: 10px auto; 
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: #7f7fef;
+    color: white;
+}
+
+.button:hover {
+    background-color: #6b6bdf;
+}
+
+/* Stop Camera Button */
+#stopCamera {
+    background-color: #007bff;
+}
+
+#stopCamera :hover {
+    background-color: #0056b3;
+}
+
+/* Home Page Button */
+.to-homepage {
+    background-color: #007bff;
+}
+
+.to-homepage:hover {
+    background-color: #0056b3;
+}

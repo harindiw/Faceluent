@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4b6cb7, #182848); 
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #000000;
+}
+
+/* Header */
+img {
+    width: 120px;
+    margin: 5px auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4b6cb7; 
+    margin-top: -5px; 
+    margin-bottom: 20px; 
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #7f7fef; 
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* List */
+ul {
+    text-align: center; 
+    max-width: 500px;
+    margin: 20px auto;
+    font-size: 1rem;
+    padding: 0; 
+    list-style-position: inside; 
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #000000;
+    list-style: none; 
+}
+
+ul li::before {
+    content: "•"; 
+    color: #4b6cb7; 
+    margin-right: 8px; 
+}
+
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.add-button {
+    background-color: #4b6cb7; 
+}
+
+.remove-button {
+    background-color: #7f7fef; 
+}
+
+/* Footer */
+footer {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #bbbbbb;
+}

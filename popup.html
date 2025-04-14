@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceFluent</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <img src="icon.png" alt="FaceFluent Icon" class="logo">
+        <h1>FaceFluent</h1>
+        <p>Status: <span id="status">Disabled</span></p>
+
+        <!-- Video Section (Webcam) -->
+        <div class="video-section">
+            <button id="startCamera" class="button">Start Camera</button>
+            <button id="stopCamera" class="button">Stop Camera</button>
+            <video id="videoElement" width="300" height="200" autoplay></video>
+        </div>
+
+        <!-- Enable/Disable Button -->
+        <div class="button-container">
+            <button id="toggleButton" class="button">Enable FaceFluent</button>
+        </div>
+
+        <!-- Open Home Page Button -->
+        <div class="button-container">
+            <button id="homePageButton" class="button to-homepage">Go to Home Page</button>
+        </div>
+    </div>
+<<<<<<< HEAD
+=======
+
+    <script src="libs/tf.min.js"></script>
+    <script src="libs/blazeface.min.js"></script>
+    
+    <script src="libs/tf-backend-wasm.min.js"></script>
+    <script>
+      async function loadTFBackend() {
+        await tf.setBackend('wasm');
+        await tf.ready();
+        console.log('TensorFlow.js is using WASM Backend!');
+      }
+    
+      loadTFBackend();
+    </script>
+>>>>>>> parent of 8bb45ff1 (lfs1)
+    
+    <script src="popup.js"></script>
+
+</body>
+</html>
